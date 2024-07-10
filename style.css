@@ -17,7 +17,9 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+ 
 }
+
 
 /* TRANSITION */
 
@@ -211,6 +213,12 @@ section {
   margin: auto 0;
 }
 
+
+.section__pic-container img{
+width:400px; height:400px; 
+object-fit:cover;
+border-radius: 50%;
+}
 .section__text {
   align-self: center;
   text-align: center;
@@ -356,6 +364,7 @@ section {
 
 #experience {
   position: relative;
+  height: 80vh;
 }
 
 .experience-sub-title {

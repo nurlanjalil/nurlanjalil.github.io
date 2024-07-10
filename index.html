@@ -16,8 +16,12 @@
     <meta property="og:type" content="website">
   </head>
   <body>
+    
     <nav id="desktop-nav">
-      <div class="logo">Nurlan Jalil</div>
+      <a href="/">
+        <div class="logo" style="margin-right:300px; position:">Nurlan Jalil</div>
+      </a>
+    </div> 
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -53,7 +57,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile_pic.jpg" style="width:400px; height:400px; object-fit:cover ;border-radius: 50%" alt="John Doe profile picture" />
+        <img src="./assets/profile_pic.jpg" alt="John Doe profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -81,7 +85,7 @@
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/nurlanjalil'"
+            onclick="window.open('https://github.com/nurlanjalil', '_blank')"
           />
         </div>
       </div>
@@ -354,7 +358,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/nurlanjalilov/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/nurlanjalilov/" target="_blank">LinkedIn</a></p>
         </div>
       </div>
     </section>

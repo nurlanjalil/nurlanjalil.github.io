@@ -26,6 +26,9 @@
   .experience-details-container {
     margin-top: 2rem;
   }
+  #experience {
+    height: 90vh;
+  }
   #profile,
   .section-container {
     display: block;
@@ -41,8 +44,6 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    /* width: 400px;
-    height: auto; */
     margin: 0 auto 2rem;
   }
   .about-containers {
@@ -88,14 +89,20 @@
     font-size: 1.5rem;
   }
   .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
+    flex-direction: row;
+    gap: 2rem;
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
+ 
     /* height: 46vw; */
     justify-content: center;
+  }
+
+  .section__pic-container img {
+  
+    width: 350px;
+    height: 350px;
   }
   .section__text__p2 {
     font-size: 1.25rem;
@@ -106,4 +113,10 @@
   .text-container {
     text-align: justify;
   }
+
+  .contact-info-upper-container{
+    width: 375px;
+    justify-content: space-around;
+  }
+  
 }
