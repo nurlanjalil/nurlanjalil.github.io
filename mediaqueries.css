@@ -21,6 +21,15 @@
   }
   #hamburger-nav {
     display: flex;
+    box-sizing: border-box;
+  }
+  #hamburger-nav .logo {
+    width: 100%;
+    padding-left:  50px;
+  }
+
+  #hamburger-nav .hamburger-menu {
+    padding-right:  5%;
   }
   #experience,
   .experience-details-container {

@@ -107,20 +107,24 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+
 }
+
 
 .hamburger-menu {
   position: relative;
   display: inline-block;
+
 }
 
 .hamburger-icon {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 24px;
   width: 30px;
   cursor: pointer;
+  margin-right: 1rem;
 }
 
 .hamburger-icon span {
@@ -157,6 +161,8 @@ a:hover {
 
 .menu-links.open {
   max-height: 300px;
+  padding: 20px 50px 0 0 ;
+  
 }
 
 .hamburger-icon.open span:first-child {
