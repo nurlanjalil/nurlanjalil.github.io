@@ -21,46 +21,47 @@
     <meta property="og:type" content="website">
   </head>
   <body>
+      <nav id="desktop-nav">
+        <a href="/">
+          <div class="logo" style="margin-right:300px; position:">Nurlan Jalil</div>
+        </a>
+      </div> 
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li class="dropdown">
+              <a href="#social" class="dropbtn">Social Media</a>
+              <div class="dropdown-content">
+                <a href="https://www.instagram.com/nurlanjalil/" target="_blank">Instagram</a>
+                <a href="https://www.youtube.com/@NurlanJalil" target="_blank">YouTube</a>
+                <a href="https://www.linkedin.com/in/nurlanjalilov/" target="_blank">LinkedIn</a>
+              </div>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Nurlan Jalil</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <ul>
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     
-    <nav id="desktop-nav">
-      <a href="/">
-        <div class="logo" style="margin-right:300px; position:">Nurlan Jalil</div>
-      </a>
-    </div> 
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li class="dropdown">
-            <a href="#social" class="dropbtn">Social Media</a>
-            <div class="dropdown-content">
-              <a href="https://www.instagram.com/nurlanjalil/" target="_blank">Instagram</a>
-              <a href="https://www.youtube.com/@NurlanJalil" target="_blank">YouTube</a>
-              <a href="https://www.linkedin.com/in/nurlanjalilov/" target="_blank">LinkedIn</a>
-            </div>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Nurlan Jalil</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <!-- <li><a href="#social" onclick="toggleMenu()">Social Media</a></li> -->
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
-    </nav>
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/profile_pic.jpg" alt="John Doe profile picture" />
